@@ -2,9 +2,9 @@ import React from 'react'
 
 function Search () {
     return (
-        <div>
-
-        </div>
+      <section className="seachbox-wrap">
+          <input type="text" placeholder="Search for a movie..." className="searchbox" />
+      </section>
     )
 }
 
