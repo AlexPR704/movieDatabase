@@ -7,3 +7,5 @@ function Results ({ results }) {
         </section>
     )
 }
+
+export default Results
