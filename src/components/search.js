@@ -8,6 +8,7 @@ function Search ({handleInput, search}) {
           placeholder="Search for a movie..." 
           className="searchbox" 
           onChange={handleInput} 
+          onKeyPress={search}
           />
           
       </section>
