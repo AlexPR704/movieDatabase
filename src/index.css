@@ -63,4 +63,13 @@ section {
   width: 33.333%;
   min-width: 250px;
   padding: 15px;
+  display: flex;
+  flex-direction: column;
+  pointer: cursor;
 }
+
+.results .result img {
+  display: block;
+  width: 100%;
+}
+
