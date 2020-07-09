@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import axios from axios
 
 import Search from './components/search'
 
@@ -11,6 +12,14 @@ function App() {
   });
   const apiurl = "http://www.omdbapi.com/?apikey=trilogy";
 
+  const search = (e) => {
+    if (e.key === "Enter") {
+      axios(apiurl + "&s=" + state.s).then((data) => {
+        console.log(data);
+      });
+    }
+  }
+
   const handleInput = (e) => {
     let s = e.target.value;
 
@@ -18,7 +27,6 @@ function App() {
       return { ...prevState, s: s }
     });
 
-    console.log(state.s);
   }
 
 
@@ -26,7 +34,7 @@ function App() {
   return (
     <div className="App">
       <header>
-      <h1>Movie Database</h1>
+        <h1>Movie Database</h1>
       </header>
       <main>
         <Search handleInput={handleInput} />
