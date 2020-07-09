@@ -37,7 +37,7 @@ function App() {
         <h1>Movie Database</h1>
       </header>
       <main>
-        <Search handleInput={handleInput} />
+        <Search handleInput={handleInput} search={search} />
       </main>
     </div>
   );
