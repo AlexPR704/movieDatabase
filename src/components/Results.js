@@ -2,10 +2,13 @@ import React from 'react'
 
 import Result from './Result'
 
-function Results ({ results }) {
+function Results({ results }) {
     return (
         <section className="results">
-            <Result result={result} />
+            {results.map(result => (
+                <Result key={result.imdbID} result={result} />
+            ))}
+
         </section>
     )
 }
