@@ -73,3 +73,13 @@ section {
   width: 100%;
 }
 
+.results .results h3 {
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px;
+  background: gray;
+  flex: 1 1 100%;
+  transition: 0.4s ease-out;
+}
+
