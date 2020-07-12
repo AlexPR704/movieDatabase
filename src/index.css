@@ -109,5 +109,19 @@ section {
   color: white;
 }
 
+.popup .content h2 {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.popup .content h2 span {
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.popup .content .rating {
+  margin-bottom: 30px;
+}
+
 
 
