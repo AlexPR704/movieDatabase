@@ -45,7 +45,11 @@ function App() {
     });
   }
 
-
+  const closePopup = () => {
+    setState(prevstate =>{
+      return { ...prevState, selected: {} }
+    });
+  }
 
   return (
     <div className="App">
