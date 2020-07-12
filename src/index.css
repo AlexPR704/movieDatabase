@@ -99,4 +99,15 @@ section {
   overflow-y: scroll;
 }
 
+.popup .content {
+  display: block;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 25px;
+
+  color: white;
+}
+
+
 
