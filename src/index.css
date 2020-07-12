@@ -88,3 +88,15 @@ section {
   color: black;
 }
 
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #445565;
+
+  overflow-y: scroll;
+}
+
+
