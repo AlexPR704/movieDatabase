@@ -1,6 +1,6 @@
 ## Movie Database App
 
-![screenshot of the code](gif.gif)
+![screenshot of the code](image/movieApp.gif)
 
 ## Description
 A basic interactive Movie Database app using ReactJS. We use an API to get information about movies and display them on screen using react components. We also look into hooks such as the useState hook to create a functional state.
