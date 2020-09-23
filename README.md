@@ -19,7 +19,9 @@ You will also see any lint errors in the console.
 
 
 # Getting Started
-1. https://github.com/AlexPR704/movieDatabase
+1. Code: https://github.com/AlexPR704/movieDatabase
+2. Deployed Link: https://alexpr704.github.io/movieDatabase/
+
 
 Follow the link above to visit the repository.
 Search for any movie and you fill be given results.
